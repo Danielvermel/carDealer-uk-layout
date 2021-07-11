@@ -1,7 +1,13 @@
 <template>
-  <body>
+  <div>
     <Nav />
     <Nuxt />
     <Footer />
-  </body>
+  </div>
 </template>
+
+<style>
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+</style>

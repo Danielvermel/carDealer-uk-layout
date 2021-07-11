@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="flexbox-container align-center my-5 pr-4">
+        <div class="flexbox-container align-center my-5 mr-4">
             <span class="car-quantaty-text my-auto mr-5 ml-2">
                 <span class="d-none-tablet">
                     Showing
