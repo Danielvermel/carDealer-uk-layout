@@ -1,0 +1,57 @@
+$flexoptions: 12%, 16%, 25%, 33%, 41%, 50%, 58%, 66%, 75%, 83%, 91%, 100%;
+
+
+@media(min-width:768px){
+    
+    @each $item in $flexoptions {
+        $index: index($flexoptions, $item);
+        
+        .flexbox-item-lg-#{$index}{
+            flex:0 0 #{$item};
+            max-width: 0 0 #{$item};
+        }
+    }
+}
+
+@media(max-width:768px){
+    
+    @each $item in $flexoptions {
+        $index: index($flexoptions, $item);
+        
+        .flexbox-item-md-#{$index}{
+            flex:1 1 #{$item};
+            max-width: 0 0 #{$item};
+        }
+    }
+        
+    .d-none-tablet {
+        display: none;
+    }
+
+    .button-hidden{
+        width: 100%;
+        margin-top: 1.5rem;
+        margin-bottom: .5rem;
+        padding: 10px 24px !important;
+    }
+
+    #navbar {
+        border-bottom: 1px solid $border-grey-color;
+    }
+}
+
+@media(max-width:375px){
+
+    @each $item in $flexoptions {
+        $index: index($flexoptions, $item);
+        
+        .flexbox-item-sm-#{$index}{
+            flex:1 1 #{$item};
+            max-width: 0 0 #{$item};
+        }
+
+        .d-none-mobile {
+            display: none;
+        }
+    }
+}
