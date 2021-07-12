@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <section>
         <div class="flexbox-container align-center my-5 mr-4">
             <span class="car-quantaty-text my-auto mr-5 ml-2">
                 <span class="d-none-tablet">
@@ -41,7 +41,7 @@
                 <option value="highestPrice">Highest price</option>
             </select>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
@@ -64,36 +64,37 @@ export default {
 <style scoped lang="scss">
 @import '~/assets/css/main.scss';
 
-.button-type {
-    padding: 2px 25px 2px 25px;
-    border-radius: $border-radius-md;
-    cursor: pointer;
-    margin-right: 5px;
-    color: $text-grey-color;
-    border: solid 1px $border-grey-color;
-    background-color: #FFFFFF;
-    height: 30px;
-}
+section {
+    .button-type {
+        padding: 2px 25px 2px 25px;
+        border-radius: $border-radius-md;
+        cursor: pointer;
+        margin-right: 5px;
+        color: $text-grey-color;
+        border: solid 1px $border-grey-color;
+        background-color: #FFFFFF;
+        height: 30px;
+    }
 
-.active {
-    color: #FFFFFF;
-    background-color: $primary-color;
-    border: solid 1px $primary-color;
-}
+    .active {
+        color: #FFFFFF;
+        background-color: $primary-color;
+        border: solid 1px $primary-color;
+    }
 
-.car-quantaty-text{
-    font-weight: 700;
-    font-size: 18px;
-    font-family: 'Overpass', sans-serif;
-}
+    .car-quantaty-text{
+        font-weight: 700;
+        font-size: 18px;
+        font-family: 'Overpass', sans-serif;
+    }
 
-.sort-cars{
-    float: right;
-    border-radius: $border-radius-lg;
-    background-color: $background-white-color;
-    padding: 13px;
-    border: none;
-    margin-left: auto;
+    .sort-cars{
+        float: right;
+        border-radius: $border-radius-lg;
+        background-color: $background-white-color;
+        padding: 13px;
+        border: none;
+        margin-left: auto;
+    }
 }
-
 </style>

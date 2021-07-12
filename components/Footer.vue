@@ -7,10 +7,12 @@
                 <div class="flexbox-container">
                     <div class="flexbox-item-6">
                         <h5 class="mb-2 text-disabled">Address</h5>
-                        <p>101 Business Street</p>
-                        <p>Business Town</p>
-                        <p>Business County</p>
-                        <p>BU51 N55</p>
+                        <p>
+                            101 Business Street <br>
+                            Business Town<br>
+                            Business County<br>
+                            BU51 N55
+                        </p>
                     </div>
                     <div class="flexbox-item-6">
                         <h5 class="mb-2 text-disabled">Opening Times</h5>
@@ -106,6 +108,11 @@
         text-transform: uppercase;
         font-size: 12px;
         letter-spacing: 1px;
+    }
+
+    p{
+        line-height: 24px;
+        font-weight: 400;
     }
 
     a {

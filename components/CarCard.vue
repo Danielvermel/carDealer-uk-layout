@@ -14,6 +14,7 @@
                         <div class="card-specs-list"> 
                             <CardSpec :specs="carInfo.fuel_type"/>
                             <CardSpec :specs="carInfo.body_type"/>
+                            <CardSpec :specs="carInfo.colour"/>
                         </div>
                     </div>
                 </div>

@@ -56,19 +56,19 @@
 import ArrowUpIcon from 'vue-material-design-icons/ChevronUp.vue';
 import ArrowDownIcon from 'vue-material-design-icons/ChevronDown.vue';
 
-    export default {
+export default {
     data() {
         return {
             active: true,
             hideButtonActive: false
         };
     },
-      components: {
+    components: {
         ArrowUpIcon,
         ArrowDownIcon
-        }
-
     }
+
+}
 </script>
 <style scpoed lang="scss">
 @import '~/assets/css/main.scss';
@@ -90,7 +90,6 @@ import ArrowDownIcon from 'vue-material-design-icons/ChevronDown.vue';
         justify-content: space-between;
         float: right;
         padding: 20px 24px;
-
     }
 
     .button-hidden-arrow{
@@ -115,7 +114,6 @@ import ArrowDownIcon from 'vue-material-design-icons/ChevronDown.vue';
     
     p {
         line-height: 24px;
-        
     }
  }
 </style>

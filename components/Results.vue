@@ -1,11 +1,11 @@
 <template>
-  <section>
+  <div>
       <div class="mr-3">
         <TopContent  
           :carQuantity="carsData.length"
           @classificationData="classification"
         />
-        <div class="flexbox-container"> 
+        <section class="flexbox-container"> 
           <CarCard
               v-for="carInfo,index in carsData"
               :key="index"
@@ -14,12 +14,11 @@
               :carInfo="carInfo"
               class="flexbox-item-lg-4 flexbox-item-md-6 flexbox-item-sm-12 p-1" 
         />
-        </div>
+        </section>
         <BottomContent/>
         <RepresentativeContent/>
       </div>
-
-  </section>
+  </div>
 </template>
 <script>
 

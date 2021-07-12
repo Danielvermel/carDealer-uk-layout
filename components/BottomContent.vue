@@ -1,5 +1,5 @@
 <template>
-    <div class="flexbox-container justify-content-between align-center my-5 mx-3">
+    <section class="flexbox-container justify-content-between align-center my-5 mx-3">
         <a class="bottom-content-text-link flexbox-item-md-2 flexbox-item-lg-3" href="#navbar">Back to top</a>
         <div class="my-auto flexbox-item-md-7 flexbox-item-lg-6">
             <button class="button-type"
@@ -54,7 +54,7 @@
             <option value="highestPrice">Highest price</option>
         </select>
 
-    </div>
+    </section>
 </template>
 
 <script>
@@ -77,7 +77,7 @@ export default {
 <style scoped lang="scss">
 @import '~/assets/css/main.scss';
 
-.flexbox-container {
+section {
     a {
         text-decoration: underline;
         color: $text-grey-color;

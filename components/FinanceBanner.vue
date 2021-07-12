@@ -1,13 +1,12 @@
 <template>
-    <div class="banner-container py-4 d-none-tablet ">
+    <section class="banner-container py-4 d-none-tablet ">
         <div class="text-white banner mx-4">
             <h4 class="banner-title">Finance a new used car </h4>
             <p class="banner-text">
                 Adjust the options to find the finance arrangement that suits you.
             </p>
         </div>
-        
-    </div>
+    </section>
 </template>
 
 
@@ -46,7 +45,5 @@
             font-family: 'Overpass', sans-serif;
         }
     } 
-
 }
-
 </style> 

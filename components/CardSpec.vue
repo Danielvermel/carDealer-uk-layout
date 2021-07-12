@@ -23,7 +23,7 @@ export default {
 .card-specs{
     font-size: 12px;
     bottom: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
     padding: 1px 10px 1px 10px;
     border-radius: $border-radius-sm;
     color: #FFFFFF;
