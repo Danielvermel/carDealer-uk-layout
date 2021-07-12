@@ -61,28 +61,30 @@ export default {
 <style scoped lang="scss">
 @import '~/assets/css/main.scss';
 
-.filters-header{
-    height: 46px;
-    align-items: center;
-}
+aside {
 
-.button-reset {
-    color: #F87B7B;
-    background-color: rgb(248 123 123 / 15%);
-    border-radius: $border-radius-lg;
-    padding: 6px 7px;
-    border: none;
-}
+    .filters-header{
+        height: 46px;
+        align-items: center;
+    }
 
-.filter-titles {
-    text-transform: uppercase;
-    font-family: 'Overpass', sans-serif;
-    font-size: 12px;
-}
-ul {
-    list-style-position: inside;
-    padding-left: 0;
-    display:grid;
-}
+    .button-reset {
+        color: #F87B7B;
+        background-color: rgb(248 123 123 / 15%);
+        border-radius: $border-radius-lg;
+        padding: 6px 7px;
+        border: none;
+    }
 
+    .filter-titles {
+        text-transform: uppercase;
+        font-family: 'Overpass', sans-serif;
+        font-size: 12px;
+    }
+    ul {
+        list-style-position: inside;
+        padding-left: 0;
+        display:grid;
+    }
+}
 </style>

@@ -56,7 +56,6 @@
                     <NuxtLink to="/" class="flexbox-item-6 text-disabled mb-2">Vauxhall</NuxtLink>
                     <NuxtLink to="/" class="flexbox-item-6 text-disabled mb-2">Mercedes-Benz</NuxtLink>
                     <NuxtLink to="/" class="flexbox-item-6 text-disabled mb-2">Volkswagen</NuxtLink>
-
                 </div>
             </div>
 

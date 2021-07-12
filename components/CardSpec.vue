@@ -4,7 +4,6 @@
     </span>
 </template>
 
-
 <script>
 export default {
     props: ['specs'],
@@ -15,7 +14,6 @@ export default {
     }
 }
 </script>
-
 
 <style scoped lang="scss">
 @import '~/assets/css/main.scss';

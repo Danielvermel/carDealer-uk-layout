@@ -10,22 +10,22 @@
 </template>
 
 <script>
-    export default {
-        props: ['color']
-    }
+export default {
+    props: ['color']
+}
 </script>
 
 <style scoped lang="scss">
 @import '~/assets/css/main.scss';
-    .nav-logo{
-        font-size: 25px;
-        font-weight: bold;
+.nav-logo{
+    font-size: 25px;
+    font-weight: bold;
 
-        sup{
-            color: $primary-color;
-            font-size: 15px;
-            margin-top: 20px;
-            padding: 6.24px;
-        }
+    sup{
+        color: $primary-color;
+        font-size: 15px;
+        margin-top: 20px;
+        padding: 6.24px;
     }
+}
 </style>

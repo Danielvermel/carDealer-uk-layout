@@ -48,7 +48,6 @@
             <FinanceCard title="Annual mileage" text="8,000" class="px-1 pb-3"/>
             <FinanceCard title="Optional financial payment" text="£3,888.04" class="px-1 pb-3"/>
         </div>
-
     </section>
 </template>
 

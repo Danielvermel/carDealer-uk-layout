@@ -12,7 +12,6 @@
             &rsaquo;
         </span>
     </div>
-
 </template>
 
 
@@ -21,7 +20,6 @@ export default {
     props: ['amount', 'i'],
 }
 </script>
-
 
 <style scoped lang="scss">
 @import '~/assets/css/main.scss';
